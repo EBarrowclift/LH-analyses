@@ -92,6 +92,9 @@ m3 <- stan_model("stan_models/DW-mat-str.stan")
 # same models with same priors but fit to different datasets
 fit.LM.str.st <- sampling(object = m3, data=DW_mat_dat, iter = 5000, chains = 3)
 
+# Model output
+print(fit.LM.str.st)
+
 # set number of predictions and for which  Ages
 # add in known Amat (only known for M. mobular) so same for both species (with different datasets)
 Age_mat_dat <- with(d5, list(Age = Age, mat = Mat, N = length(Age), Amat = 5.5,
@@ -103,3 +106,6 @@ m4 <- stan_model("stan_models/Age-mat-str.stan")
 # Sampling Stan model
 # same models with same priors but fit to different datasets
 fit.AM.str.st <- sampling(object = m4, data=Age_mat_dat, iter = 5000, chains = 3)
+
+# Model output
+print(fit.AM.str.st)
