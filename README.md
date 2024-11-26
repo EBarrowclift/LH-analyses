@@ -1,4 +1,4 @@
-**Data and analysis for 'Age, growth, and intrinsic sensitivity of Endangered Spinetail Devil Ray (Mobula mobular) and Bentfin Devil Ray (M. thurstoni) in the Indian Ocean.'**
+**Data and analysis for 'Age, growth, and intrinsic sensitivity of Endangered Spinetail Devil Ray (*Mobula mobular*) and Bentfin Devil Ray (*M. thurstoni*) in the Indian Ocean.'**
 
 ------------------------------------------------------
 
